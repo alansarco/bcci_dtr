@@ -3,13 +3,13 @@
     "file": "assets/persona-DCg0LL77.js",
     "name": "persona"
   },
-  "resources/css/app.scss": {
-    "file": "assets/app-B68GYEw2.css",
-    "src": "resources/css/app.scss",
+  "resources/css/app.css": {
+    "file": "assets/app-zlZH_S6c.css",
+    "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-DI6-W-r-.js",
+    "file": "assets/app-CvSG40sc.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true
