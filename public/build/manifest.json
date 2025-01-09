@@ -3,9 +3,9 @@
     "file": "assets/persona-DCg0LL77.js",
     "name": "persona"
   },
-  "resources/css/app.css": {
+  "resources/css/app.scss": {
     "file": "assets/app-B68GYEw2.css",
-    "src": "resources/css/app.css",
+    "src": "resources/css/app.scss",
     "isEntry": true
   },
   "resources/js/app.js": {
