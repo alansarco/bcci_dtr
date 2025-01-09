@@ -1,0 +1,41 @@
+{
+  "_persona-DCg0LL77.js": {
+    "file": "assets/persona-DCg0LL77.js",
+    "name": "persona"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-B68GYEw2.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-DI6-W-r-.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/customFingerprint.js": {
+    "file": "assets/customFingerprint-ly9Ftfqs.js",
+    "name": "customFingerprint",
+    "src": "resources/js/customFingerprint.js",
+    "isEntry": true,
+    "imports": [
+      "_persona-DCg0LL77.js"
+    ]
+  },
+  "resources/js/persona.js": {
+    "file": "assets/persona-9tHD9SGF.js",
+    "name": "persona",
+    "src": "resources/js/persona.js",
+    "isEntry": true
+  },
+  "resources/js/registerFingerprint.js": {
+    "file": "assets/registerFingerprint-BdwsZ9JC.js",
+    "name": "registerFingerprint",
+    "src": "resources/js/registerFingerprint.js",
+    "isEntry": true,
+    "imports": [
+      "_persona-DCg0LL77.js"
+    ]
+  }
+}
