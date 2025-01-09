@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./assets/css/tailwind.output.css" />
 
     <title>{{ config('app.name', 'Laravel') }}</title>
-
+    <script src="https://cdn.example.com/websdk.js"></script>
     @vite(['resources/css/app.scss', 'resources/js/app.js'])
     <!-- Scripts -->
     <script src="{{ asset('js/focus-trap.js') }}"></script>

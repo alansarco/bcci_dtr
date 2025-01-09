@@ -25,6 +25,7 @@
         "@rollup/plugin-babel": "^6.0.4",
         "bootstrap": "^5.3.3",
         "core-js": "^3.39.0",
-        "regenerator-runtime": "^0.14.1"
+        "regenerator-runtime": "^0.14.1",
+        "sass": "^1.83.1"
     }
 }
