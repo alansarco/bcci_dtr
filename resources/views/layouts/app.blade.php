@@ -15,6 +15,11 @@
     <script src="{{ asset('js/focus-trap.js') }}"></script>
     <script src="{{ asset('js/init-alpine.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/@laragear/webpass@2/dist/webpass.js"></script>
+    <!-- In your main layout blade file -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 
 <body>

@@ -1,7 +1,10 @@
 {
-  "_persona-DCg0LL77.js": {
-    "file": "assets/persona-DCg0LL77.js",
-    "name": "persona"
+  "_persona-DD0t0g_y.js": {
+    "file": "assets/persona-DD0t0g_y.js",
+    "name": "persona",
+    "imports": [
+      "resources/js/persona.js"
+    ]
   },
   "resources/css/app.css": {
     "file": "assets/app-zlZH_S6c.css",
@@ -15,27 +18,29 @@
     "isEntry": true
   },
   "resources/js/customFingerprint.js": {
-    "file": "assets/customFingerprint-ly9Ftfqs.js",
+    "file": "assets/customFingerprint-DpsshOlS.js",
     "name": "customFingerprint",
     "src": "resources/js/customFingerprint.js",
     "isEntry": true,
     "imports": [
-      "_persona-DCg0LL77.js"
+      "_persona-DD0t0g_y.js",
+      "resources/js/persona.js"
     ]
   },
   "resources/js/persona.js": {
-    "file": "assets/persona-9tHD9SGF.js",
+    "file": "assets/persona-C9k5cQRL.js",
     "name": "persona",
     "src": "resources/js/persona.js",
     "isEntry": true
   },
   "resources/js/registerFingerprint.js": {
-    "file": "assets/registerFingerprint-BdwsZ9JC.js",
+    "file": "assets/registerFingerprint-B14JSUTk.js",
     "name": "registerFingerprint",
     "src": "resources/js/registerFingerprint.js",
     "isEntry": true,
     "imports": [
-      "_persona-DCg0LL77.js"
+      "_persona-DD0t0g_y.js",
+      "resources/js/persona.js"
     ]
   }
 }

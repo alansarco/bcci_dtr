@@ -1,0 +1,1 @@
+import{F as i}from"./persona-DD0t0g_y.js";import"./persona-C9k5cQRL.js";document.addEventListener("DOMContentLoaded",async()=>{const e=document.getElementById("scanner-status"),t=document.getElementById("debug-output"),n=document.getElementById("employee_code"),o=window.location.pathname==="/"?"reading":"register";await new i(t,e,o,n).initialize()});

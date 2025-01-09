@@ -9,17 +9,15 @@ export default defineConfig({
             input: [
                 'resources/css/app.css',
                 'resources/js/app.js',
+                // 'resources/js/digital-persona-bundle.js',
                 'resources/js/persona.js',
                 'resources/js/customFingerprint.js',
-                'resources/js/registerFingerprint.js',
+                'resources/js/registerFingerprint.js'
             ],
             refresh: true,
         }),
         commonjs({
-            include: [
-                '@digitalpersona/core',
-                '@digitalpersona/devices', // Add this to ensure it's included
-            ],
+            include: ['@digitalpersona/core'], // Add libraries using require()
         }),
     ],
     resolve: {
@@ -27,13 +25,11 @@ export default defineConfig({
             '@': path.resolve(__dirname, 'resources/js'),
         },
     },
-    build: {
+     build: {
         commonjsOptions: {
             include: [/node_modules/],
-            transformMixedEsModules: true, // Ensure mixed ESM/CommonJS modules are transformed
-        },
-        rollupOptions: {
-            external: ['@digitalpersona/devices'], // Externalize the module if not meant to be bundled
         },
     },
 });
+
+
